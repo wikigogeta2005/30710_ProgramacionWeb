@@ -8,15 +8,24 @@ el cual es desplegado dentro de un contenedor Docker aprendido en clases utiliza
 El objetivo de este deber es  demostrar la creación, contenedorización y distribución de una aplicación web simple mediante Docker Hub.
 -------------------------------------------------------------------------------------------------------------------------------------------
 📁 Estructura del proyecto
+
+
 mi-sitio-docker/
 │
+│
 ├── index.html
+│
 ├── Imagenes/
+│
 │   ├── astronauthelmet_96120.ico
+│
 │   └── Autoretrato.png
 │
+│
 ├── Dockerfile
+│
 ├── .dockerignore
+│
 └── README.md
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Instrucciones de uso 
