@@ -48,11 +48,17 @@ http://localhost:8080
 🐳 Imagen en Docker Hub
 
 🔗 URL:
+
+
 https://hub.docker.com/r/kenaposo2005/dokcer-img
 -----------------------------------------------------------------------------------------------------------------------------------
 📥 Descargar la imagen
+
+
 docker pull kenaposo2005/dokcer-img:V1.0
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ▶️ Ejecutar desde Docker Hub
-docker run -d -p 8080:80 tuusuario/mi-sitio-web
+
+
+docker run -d -p 8080:80 --name mi-web kenaposo2005/dokcer-img:latest
