@@ -23,9 +23,12 @@ Instrucciones de uso
 
 🔨 Construir la imagen Docker: Este es un paso muy importante para la construccion porque Docker sin una imagen no funcionaria y el contenedor
 no se crearia:
+
+
 docker build -t web-nginx .
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ▶️ Ejecutar el contenedor: En este paso se verifica si el contenedor funciona de forma correcta:
+
 docker run -d -p 8080:80 tuusuario/mi-sitio-web
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 🌍 Acceder al sitio
