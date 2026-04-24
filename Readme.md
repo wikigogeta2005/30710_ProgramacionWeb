@@ -38,8 +38,21 @@ docker build -t web-nginx .
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ▶️ Ejecutar el contenedor: En este paso se verifica si el contenedor funciona de forma correcta:
 
-docker run -d -p 8080:80 tuusuario/mi-sitio-web
+docker run -d -p 8080:80 web-nginx
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 🌍 Acceder al sitio
 Abrir en el navegador:
 http://localhost:8080
+
+-----------------------------------------------------------------------------------------------------------------------------------
+🐳 Imagen en Docker Hub
+
+🔗 URL:
+https://hub.docker.com/r/kenaposo2005/dokcer-img
+-----------------------------------------------------------------------------------------------------------------------------------
+📥 Descargar la imagen
+docker pull kenaposo2005/dokcer-img:V1.0
+
+----------------------------------------------------------------------------------------------------------------------------------
+▶️ Ejecutar desde Docker Hub
+docker run -d -p 8080:80 tuusuario/mi-sitio-web
